@@ -1,0 +1,23 @@
+﻿<?xml version="1.0" encoding="UTF-8" ?>
+<widget xmlns = "http://www.w3.org/ns/widgets"
+    xmlns:gap = "http://phonegap.com/ns/1.0"
+    id        = "com.phonegap.taipeihotel"
+    version   = "1.0.0">
+
+<name>來去台北住一晚</name>
+
+<description>
+提供台北市旅館資訊，讓您來去台北賓至如歸。
+</description>
+
+<author href="http://www.e-happpy.com.tw" email="service@e-happy.com.tw">
+文淵閣工作室
+</author>
+
+<icon src="images/TaipeiHotelIcon.png" gap:platform="android" />
+<gap:splash src="images/TaipeiHotel.png" gap:platform="android" />
+
+<preference name="orientation" value="portrait" />
+<preference name="android-minSdkVersion" value="7" />
+
+</widget>
